@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/personinfo"
+            android:title="Personal Information" />
+        <item
+            android:id="@+id/tripparticipated"
+            android:icon="@drawable/tripgo"
+            android:title="The trips I participated in" />
+        <item
+            android:id="@+id/savepost"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Saved Posts" />
+        <item
+            android:id="@+id/Tripcreated"
+            android:icon="@drawable/organizedtrips"
+            android:title="Organized trips" />
+        <item
+            android:id="@+id/savetrip"
+            android:icon="@drawable/icons8_love_50"
+            android:title="Saved Trips" />
+        <item
+            android:id="@+id/app_bar_switch"
+            android:title="Dark mode"
+            android:icon="@drawable/icons8_dark_mode_64"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Logout" />
+    </group>
+</menu>
